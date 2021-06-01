@@ -29,8 +29,8 @@ namespace ITPM_Project
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.txtFnameBoxML = new System.Windows.Forms.TextBox();
             this.txtTitleBoxML = new System.Windows.Forms.ComboBox();
             this.txtLevelBoxML = new System.Windows.Forms.ComboBox();
@@ -84,7 +84,7 @@ namespace ITPM_Project
             this.txtFnameBoxML.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtFnameBoxML.Location = new System.Drawing.Point(169, 150);
             this.txtFnameBoxML.Name = "txtFnameBoxML";
-            this.txtFnameBoxML.Size = new System.Drawing.Size(189, 30);
+            this.txtFnameBoxML.Size = new System.Drawing.Size(189, 26);
             this.txtFnameBoxML.TabIndex = 38;
             // 
             // txtTitleBoxML
@@ -99,7 +99,7 @@ namespace ITPM_Project
             "Miss"});
             this.txtTitleBoxML.Location = new System.Drawing.Point(169, 95);
             this.txtTitleBoxML.Name = "txtTitleBoxML";
-            this.txtTitleBoxML.Size = new System.Drawing.Size(189, 30);
+            this.txtTitleBoxML.Size = new System.Drawing.Size(189, 27);
             this.txtTitleBoxML.TabIndex = 37;
             // 
             // txtLevelBoxML
@@ -116,7 +116,7 @@ namespace ITPM_Project
             "Assistant Lecturer"});
             this.txtLevelBoxML.Location = new System.Drawing.Point(537, 276);
             this.txtLevelBoxML.Name = "txtLevelBoxML";
-            this.txtLevelBoxML.Size = new System.Drawing.Size(189, 30);
+            this.txtLevelBoxML.Size = new System.Drawing.Size(189, 27);
             this.txtLevelBoxML.TabIndex = 32;
             // 
             // txtBuildingBoxML
@@ -131,7 +131,7 @@ namespace ITPM_Project
             "Business Building"});
             this.txtBuildingBoxML.Location = new System.Drawing.Point(537, 210);
             this.txtBuildingBoxML.Name = "txtBuildingBoxML";
-            this.txtBuildingBoxML.Size = new System.Drawing.Size(189, 30);
+            this.txtBuildingBoxML.Size = new System.Drawing.Size(189, 27);
             this.txtBuildingBoxML.TabIndex = 31;
             // 
             // txtCenterBoxML
@@ -148,7 +148,7 @@ namespace ITPM_Project
             "Jaffna"});
             this.txtCenterBoxML.Location = new System.Drawing.Point(537, 149);
             this.txtCenterBoxML.Name = "txtCenterBoxML";
-            this.txtCenterBoxML.Size = new System.Drawing.Size(189, 30);
+            this.txtCenterBoxML.Size = new System.Drawing.Size(189, 27);
             this.txtCenterBoxML.TabIndex = 30;
             // 
             // txtDepBoxML
@@ -172,7 +172,7 @@ namespace ITPM_Project
             "EEE"});
             this.txtDepBoxML.Location = new System.Drawing.Point(169, 334);
             this.txtDepBoxML.Name = "txtDepBoxML";
-            this.txtDepBoxML.Size = new System.Drawing.Size(189, 30);
+            this.txtDepBoxML.Size = new System.Drawing.Size(189, 27);
             this.txtDepBoxML.TabIndex = 29;
             // 
             // txtFacultyBoxML
@@ -187,7 +187,7 @@ namespace ITPM_Project
             "Humanities & Science"});
             this.txtFacultyBoxML.Location = new System.Drawing.Point(169, 273);
             this.txtFacultyBoxML.Name = "txtFacultyBoxML";
-            this.txtFacultyBoxML.Size = new System.Drawing.Size(189, 30);
+            this.txtFacultyBoxML.Size = new System.Drawing.Size(189, 27);
             this.txtFacultyBoxML.TabIndex = 28;
             // 
             // txtRankBoxML
@@ -196,7 +196,7 @@ namespace ITPM_Project
             this.txtRankBoxML.Location = new System.Drawing.Point(537, 334);
             this.txtRankBoxML.Name = "txtRankBoxML";
             this.txtRankBoxML.ReadOnly = true;
-            this.txtRankBoxML.Size = new System.Drawing.Size(189, 30);
+            this.txtRankBoxML.Size = new System.Drawing.Size(189, 26);
             this.txtRankBoxML.TabIndex = 27;
             // 
             // txtLecturerIDBoxML
@@ -205,7 +205,7 @@ namespace ITPM_Project
             this.txtLecturerIDBoxML.Location = new System.Drawing.Point(537, 95);
             this.txtLecturerIDBoxML.MaxLength = 6;
             this.txtLecturerIDBoxML.Name = "txtLecturerIDBoxML";
-            this.txtLecturerIDBoxML.Size = new System.Drawing.Size(189, 30);
+            this.txtLecturerIDBoxML.Size = new System.Drawing.Size(189, 26);
             this.txtLecturerIDBoxML.TabIndex = 26;
             this.txtLecturerIDBoxML.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtLecturerIDBoxML_KeyPress);
             // 
@@ -214,7 +214,7 @@ namespace ITPM_Project
             this.txtLnameBoxML.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtLnameBoxML.Location = new System.Drawing.Point(169, 211);
             this.txtLnameBoxML.Name = "txtLnameBoxML";
-            this.txtLnameBoxML.Size = new System.Drawing.Size(189, 30);
+            this.txtLnameBoxML.Size = new System.Drawing.Size(189, 26);
             this.txtLnameBoxML.TabIndex = 25;
             // 
             // label15
@@ -223,7 +223,7 @@ namespace ITPM_Project
             this.label15.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.Location = new System.Drawing.Point(45, 98);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(47, 22);
+            this.label15.Size = new System.Drawing.Size(34, 19);
             this.label15.TabIndex = 41;
             this.label15.Text = "Title";
             // 
@@ -233,7 +233,7 @@ namespace ITPM_Project
             this.label14.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.Location = new System.Drawing.Point(414, 98);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(101, 22);
+            this.label14.Size = new System.Drawing.Size(80, 19);
             this.label14.TabIndex = 42;
             this.label14.Text = "Lecturer ID";
             // 
@@ -243,7 +243,7 @@ namespace ITPM_Project
             this.label16.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label16.Location = new System.Drawing.Point(45, 276);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(68, 22);
+            this.label16.Size = new System.Drawing.Size(53, 19);
             this.label16.TabIndex = 43;
             this.label16.Text = "Faculty";
             // 
@@ -253,7 +253,7 @@ namespace ITPM_Project
             this.label17.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label17.Location = new System.Drawing.Point(45, 213);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(94, 22);
+            this.label17.Size = new System.Drawing.Size(76, 19);
             this.label17.TabIndex = 44;
             this.label17.Text = "Last Name";
             // 
@@ -263,7 +263,7 @@ namespace ITPM_Project
             this.label18.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label18.Location = new System.Drawing.Point(414, 153);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(62, 22);
+            this.label18.Size = new System.Drawing.Size(50, 19);
             this.label18.TabIndex = 45;
             this.label18.Text = "Center";
             // 
@@ -273,7 +273,7 @@ namespace ITPM_Project
             this.label19.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label19.Location = new System.Drawing.Point(45, 337);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(101, 22);
+            this.label19.Size = new System.Drawing.Size(80, 19);
             this.label19.TabIndex = 46;
             this.label19.Text = "Department";
             // 
@@ -283,7 +283,7 @@ namespace ITPM_Project
             this.label20.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label20.Location = new System.Drawing.Point(45, 153);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(98, 22);
+            this.label20.Size = new System.Drawing.Size(77, 19);
             this.label20.TabIndex = 47;
             this.label20.Text = "First Name";
             // 
@@ -293,7 +293,7 @@ namespace ITPM_Project
             this.label21.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label21.Location = new System.Drawing.Point(414, 337);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(50, 22);
+            this.label21.Size = new System.Drawing.Size(41, 19);
             this.label21.TabIndex = 48;
             this.label21.Text = "Rank";
             // 
@@ -303,7 +303,7 @@ namespace ITPM_Project
             this.label22.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label22.Location = new System.Drawing.Point(414, 275);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(55, 22);
+            this.label22.Size = new System.Drawing.Size(42, 19);
             this.label22.TabIndex = 49;
             this.label22.Text = "Level";
             // 
@@ -313,7 +313,7 @@ namespace ITPM_Project
             this.label23.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label23.Location = new System.Drawing.Point(414, 214);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(78, 22);
+            this.label23.Size = new System.Drawing.Size(57, 19);
             this.label23.TabIndex = 50;
             this.label23.Text = "Building";
             // 
@@ -367,7 +367,7 @@ namespace ITPM_Project
             this.groupBox2.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.Location = new System.Drawing.Point(0, 0);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(1326, 886);
+            this.groupBox2.Size = new System.Drawing.Size(1326, 749);
             this.groupBox2.TabIndex = 51;
             this.groupBox2.TabStop = false;
             this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
@@ -378,7 +378,7 @@ namespace ITPM_Project
             this.manageLectureTopic.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.manageLectureTopic.Location = new System.Drawing.Point(521, 25);
             this.manageLectureTopic.Name = "manageLectureTopic";
-            this.manageLectureTopic.Size = new System.Drawing.Size(221, 32);
+            this.manageLectureTopic.Size = new System.Drawing.Size(175, 25);
             this.manageLectureTopic.TabIndex = 82;
             this.manageLectureTopic.Text = "Manage Lecturer";
             // 
@@ -445,8 +445,8 @@ namespace ITPM_Project
             // 
             this.lecGridView.AllowUserToAddRows = false;
             this.lecGridView.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(230)))), ((int)(((byte)(255)))));
-            this.lecGridView.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(230)))), ((int)(((byte)(255)))));
+            this.lecGridView.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.lecGridView.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
@@ -455,14 +455,14 @@ namespace ITPM_Project
             this.lecGridView.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.lecGridView.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
             this.lecGridView.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(169)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(169)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.lecGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(169)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(169)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.lecGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.lecGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.lecGridView.DoubleBuffered = true;
             this.lecGridView.EnableHeadersVisualStyles = false;
@@ -478,7 +478,7 @@ namespace ITPM_Project
             this.lecGridView.RowTemplate.ReadOnly = true;
             this.lecGridView.RowTemplate.Resizable = System.Windows.Forms.DataGridViewTriState.False;
             this.lecGridView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.lecGridView.Size = new System.Drawing.Size(1288, 370);
+            this.lecGridView.Size = new System.Drawing.Size(1288, 233);
             this.lecGridView.TabIndex = 70;
             this.lecGridView.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView_CellClick);
             // 
@@ -627,7 +627,7 @@ namespace ITPM_Project
             this.txtSearchBoxML.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtSearchBoxML.Location = new System.Drawing.Point(233, 448);
             this.txtSearchBoxML.Name = "txtSearchBoxML";
-            this.txtSearchBoxML.Size = new System.Drawing.Size(493, 30);
+            this.txtSearchBoxML.Size = new System.Drawing.Size(493, 26);
             this.txtSearchBoxML.TabIndex = 54;
             this.txtSearchBoxML.TextChanged += new System.EventHandler(this.txtSearchBoxML_TextChanged);
             // 
@@ -637,7 +637,7 @@ namespace ITPM_Project
             this.label26.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label26.Location = new System.Drawing.Point(45, 451);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(135, 22);
+            this.label26.Size = new System.Drawing.Size(106, 19);
             this.label26.TabIndex = 53;
             this.label26.Text = "Search Lecturer";
             // 
@@ -647,7 +647,7 @@ namespace ITPM_Project
             this.label25.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label25.Location = new System.Drawing.Point(45, 398);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(108, 22);
+            this.label25.Size = new System.Drawing.Size(83, 19);
             this.label25.TabIndex = 52;
             this.label25.Text = "Active Days";
             // 
@@ -657,13 +657,13 @@ namespace ITPM_Project
             this.label24.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label24.Location = new System.Drawing.Point(775, 98);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(108, 22);
+            this.label24.Size = new System.Drawing.Size(81, 19);
             this.label24.TabIndex = 51;
             this.label24.Text = "Active Time";
             // 
             // ManageLecturer
             // 
-            this.ClientSize = new System.Drawing.Size(1326, 886);
+            this.ClientSize = new System.Drawing.Size(1326, 749);
             this.Controls.Add(this.groupBox2);
             this.Name = "ManageLecturer";
             this.Text = "Instritute of ABC";

@@ -48,10 +48,11 @@ namespace WD_R_14
             this.csession_cmb.ForeColor = System.Drawing.Color.Black;
             this.csession_cmb.FormattingEnabled = true;
             this.csession_cmb.Location = new System.Drawing.Point(484, 332);
-            this.csession_cmb.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.csession_cmb.Margin = new System.Windows.Forms.Padding(4);
             this.csession_cmb.Name = "csession_cmb";
             this.csession_cmb.Size = new System.Drawing.Size(321, 30);
             this.csession_cmb.TabIndex = 53;
+            this.csession_cmb.SelectedIndexChanged += new System.EventHandler(this.csession_cmb_SelectedIndexChanged);
             // 
             // label3
             // 
@@ -74,7 +75,7 @@ namespace WD_R_14
             this.room_cmb.ForeColor = System.Drawing.Color.Black;
             this.room_cmb.FormattingEnabled = true;
             this.room_cmb.Location = new System.Drawing.Point(484, 214);
-            this.room_cmb.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.room_cmb.Margin = new System.Windows.Forms.Padding(4);
             this.room_cmb.Name = "room_cmb";
             this.room_cmb.Size = new System.Drawing.Size(321, 30);
             this.room_cmb.TabIndex = 48;
@@ -170,7 +171,7 @@ namespace WD_R_14
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1325, 750);
             this.Controls.Add(this.panel1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Room_Consecutive_Sessions";
             this.Text = "Room Consecutive Sessions";
             this.Load += new System.EventHandler(this.Room_Consecutive_Sessions_Load);
