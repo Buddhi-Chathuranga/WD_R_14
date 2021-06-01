@@ -36,7 +36,7 @@ namespace Project1
             childForm.Show();
         }
 
-        SqlConnection conn = new SqlConnection(@"Data Source=DESKTOP-27HH1FB;Initial Catalog=GropupDB;Integrated Security=True");
+        SqlConnection conn = new SqlConnection(@"Server=tcp:wdr14.database.windows.net,1433;Initial Catalog=group;Persist Security Info=False;User ID=it19156798;Password=IT@19156798;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
         public void Display()
         {
             if (con.State == ConnectionState.Open)
@@ -79,7 +79,7 @@ namespace Project1
 
 
 
-        SqlConnection con = new SqlConnection(@"Data Source=wdr-14.database.windows.net;Initial Catalog=wdr-14;User ID=it19149936;Password=16011999b@;Connect Timeout=30;Encrypt=True;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
+        SqlConnection con = new SqlConnection(@"Server=tcp:wdr14.database.windows.net,1433;Initial Catalog=group;Persist Security Info=False;User ID=it19156798;Password=IT@19156798;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
         public String tagCode, subjectCode;
 
         private void List_SelectedIndexChanged(object sender, EventArgs e)

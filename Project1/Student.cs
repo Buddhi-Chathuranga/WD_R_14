@@ -17,7 +17,7 @@ namespace Project1
         {
             InitializeComponent();
         }
-        string con = @"Data Source=wdr-14.database.windows.net;Initial Catalog=wdr-14;User ID=it19149936;Password=16011999b@;Connect Timeout=30;Encrypt=True;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
+        string con = @"Server=tcp:wdr14.database.windows.net,1433;Initial Catalog=group;Persist Security Info=False;User ID=it19156798;Password=IT@19156798;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
         private void Student_Load(object sender, EventArgs e)
         {
             SqlConnection conn = new SqlConnection(con);  //Connect to DB
